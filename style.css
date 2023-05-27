@@ -1,0 +1,71 @@
+*{margin:0; padding:0;}
+
+body {
+    background-image: url(fondorecetas.jpg);
+    background-size: cover;
+    
+}
+
+header {
+    width:100%;
+    overflow: hidden;
+    background:#f5b913;
+    margin-bottom:20px;
+}
+
+.cositas {
+    width:90%;
+    max-width:1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contenido p {
+    padding: 20px;
+}
+
+header .logo {
+    color: rgb(54, 71, 71);
+    font-size:50px;
+    line-height:200px;
+    float: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header nav {
+    float: right;
+    line-height: 200px;
+}
+header nav a {
+    text-decoration: none;
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    padding:10px 20px;
+    line-height:normal;
+    font-size: 20px;
+    font-weight: bold;
+}
+header nav a:hover {
+    background: rgb(127, 136, 136);
+    border-radius: 50px;
+}
+
+.contenido p {
+    font-family:cursive;
+    margin-bottom:1em;
+    background: rgb(255, 255, 255);
+    width: 500px;
+    height: 200px;
+    text-align: center;
+    border-radius: 10px;
+    position: absolute; 
+    right: 30%;
+}
+
+.imagen1 {
+    position: absolute;
+    right: 70%;
+}
+.imagen2 {
+    position: absolute;
+    left: 70.5%;
+}
